@@ -1,0 +1,19 @@
+{
+  "client_id": "https://trchristensen.github.io/oauth/client-metadata.json",
+  "application_type": "native",
+  "client_name": "Communities",
+  "client_uri": "https://trchristensen.github.io",
+  "dpop_bound_access_tokens": true,
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "redirect_uris": [
+    "myapp://oauth/callback"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "scope": "atproto",
+  "token_endpoint_auth_method": "none"
+}
